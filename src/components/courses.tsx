@@ -73,7 +73,7 @@ function courses() {
             height={100}
             className="p-2"
           />
-          <div className="flex items-center flex-col">
+          <div className="flex items-center justify-center w-3/4 flex-col">
             <h5 className="text-base md:text-[20px] font-semibold leading-[30px]">
               Communication
             </h5>
@@ -91,7 +91,7 @@ function courses() {
             height={100}
             className="p-2"
           />
-          <div className="flex items-center flex-col">
+          <div className="flex items-center justify-center w-3/4 flex-col">
             <h5 className="text-base md:text-[20px] font-semibold leading-[30px]">
               Digital Marketing
             </h5>
@@ -109,7 +109,7 @@ function courses() {
             height={100}
             className="p-2"
           />
-          <div className="flex items-center flex-col">
+          <div className="flex items-center justify-center w-3/4 flex-col">
             <h5 className="text-base md:text-[20px] font-semibold leading-[30px]">
               Self Development
             </h5>
@@ -129,7 +129,7 @@ function courses() {
             height={100}
             className="p-2"
           />
-          <div className="flex items-center flex-col">
+          <div className="flex items-center justify-center w-3/4 flex-col">
             <h5 className="text-base md:text-[20px] font-semibold leading-[30px]">
               Business
             </h5>
@@ -147,7 +147,7 @@ function courses() {
             height={100}
             className="p-2"
           />
-          <div className="flex items-center flex-col">
+          <div className="flex items-center justify-center w-3/4 flex-col">
             <h5 className="text-base md:text-[20px] font-semibold leading-[30px]">
               Finance
             </h5>
@@ -165,7 +165,7 @@ function courses() {
             height={100}
             className="p-2"
           />
-          <div className="flex items-center flex-col">
+          <div className="flex items-center justify-center w-3/4 flex-col">
             <h5 className="text-base md:text-[20px] font-semibold leading-[30px]">
               Consulting
             </h5>
