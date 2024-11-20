@@ -5,10 +5,10 @@ function blog() {
   return (
     <>
       <div className="w-full mt-6 md:mt-0 p-3 md:p-6">
-        <h2 className="font-bold leading-[35px] md:leading-[57.6px] text-xl md:text-5xl text-center">
+        <h2 className="font-bold text-black leading-[35px] md:leading-[57.6px] text-xl md:text-5xl text-center">
           Courses
         </h2>
-        <p className="text-lg leading-[27px] text-center">
+        <p className="text-lg text-black leading-[27px] text-center">
           Your Ultimate Guide to Learning
         </p>
       </div>
@@ -24,8 +24,8 @@ function blog() {
           />
           <div className="p-6 pt-0">
             <div className="flex w-full justify-between">
-              <h5>Design</h5>
-              <span className="flex">
+              <h5 className="text-black">Design</h5>
+              <span className="text-black flex">
                 <Image
                   src={"/images/Star 1.png"}
                   alt="Star 1"
@@ -37,10 +37,10 @@ function blog() {
               </span>
             </div>
 
-            <h5 className="text-base font-bold leading-[33.6px]">
+            <h5 className="text-base text-black font-bold leading-[33.6px]">
               UX/UI Design 201
             </h5>
-            <p className="text-base leading-6">
+            <p className="text-base text-black leading-6">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse varius enim in eros.
             </p>
@@ -49,7 +49,7 @@ function blog() {
           <div className="w-1/2 p-2 mt-4 fade-up flex items-center justify-between">
             <Link
               href="/"
-              className="flex items-center justify-center border-2 border-slate-900 
+              className="flex text-black items-center justify-center border-2 border-slate-900 
     hover:bg-slate-900 hover:text-white w-[117px] h-[40px]"
             >
               Enroll Now
@@ -67,8 +67,8 @@ function blog() {
           />
           <div className="p-6 pt-0">
             <div className="flex w-full justify-between">
-              <h5>Programming</h5>
-              <span className="flex">
+              <h5 className="text-black">Programming</h5>
+              <span className="text-black flex">
                 <Image
                   src={"/images/Star 1.png"}
                   alt="Star 1"
@@ -80,10 +80,10 @@ function blog() {
               </span>
             </div>
 
-            <h5 className="text-base font-bold leading-[33.6px]">
+            <h5 className="text-base text-black font-bold leading-[33.6px]">
             Introduction to Python
             </h5>
-            <p className="text-base leading-6">
+            <p className="text-base text-black leading-6">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse varius enim in eros.
             </p>
@@ -92,7 +92,7 @@ function blog() {
           <div className="w-1/2 p-2 mt-4 fade-up flex items-center justify-between">
             <Link
               href="/"
-              className="flex items-center justify-center border-2 border-slate-900 
+              className="flex text-black items-center justify-center border-2 border-slate-900 
     hover:bg-slate-900 hover:text-white w-[117px] h-[40px]"
             >
               Enroll Now
@@ -111,8 +111,8 @@ function blog() {
           />
           <div className="p-6 pt-0">
             <div className="flex w-full justify-between">
-              <h5>Business</h5>
-              <span className="flex">
+              <h5 className="text-black">Business</h5>
+              <span className="text-black flex">
                 <Image
                   src={"/images/Star 1.png"}
                   alt="Star 1"
@@ -124,10 +124,10 @@ function blog() {
               </span>
             </div>
 
-            <h5 className="text-base font-bold leading-[33.6px]">
+            <h5 className="text-base text-black font-bold leading-[33.6px]">
             Data Analysis for Beginners
             </h5>
-            <p className="text-base leading-6">
+            <p className="text-base text-black leading-6">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse varius enim in eros.
             </p>
@@ -136,7 +136,7 @@ function blog() {
           <div className="w-1/2 p-2 mt-4 fade-up flex items-center justify-between">
             <Link
               href="/"
-              className="flex items-center justify-center border-2 border-slate-900 
+              className="text-black flex items-center justify-center border-2 border-slate-900 
     hover:bg-slate-900 hover:text-white w-[117px] h-[40px]"
             >
               Enroll Now
@@ -157,8 +157,8 @@ function blog() {
           />
           <div className="p-6 pt-0">
             <div className="flex w-full justify-between">
-              <h5>Art</h5>
-              <span className="flex">
+              <h5 className="text-black">Art</h5>
+              <span className="text-black flex">
                 <Image
                   src={"/images/Star 1.png"}
                   alt="Star 1"
@@ -170,10 +170,10 @@ function blog() {
               </span>
             </div>
 
-            <h5 className="text-base font-bold leading-[33.6px]">
+            <h5 className="text-base text-black font-bold leading-[33.6px]">
             Art Specialization
             </h5>
-            <p className="text-base leading-6">
+            <p className="text-base text-black leading-6">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse varius enim in eros.
             </p>
@@ -182,7 +182,7 @@ function blog() {
           <div className="w-1/2 p-2 mt-4 fade-up flex items-center justify-between">
             <Link
               href="/"
-              className="flex items-center justify-center border-2 border-slate-900 
+              className="text-black flex items-center justify-center border-2 border-slate-900 
     hover:bg-slate-900 hover:text-white w-[117px] h-[40px]"
             >
               Enroll Now

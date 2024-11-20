@@ -57,7 +57,7 @@ export default function Home() {
 
       <div className="w-full flex md:flex-row flex-col h-[228px] bg-[#F7F7F7]">
         <div className="w-full md:w-1/3 mt-14 md:mt-0 flex justify-center items-center">
-          <h2 className="font-bold md:w-[320px] text-2xl text-center md:text-left">
+          <h2 className="font-bold text-black md:w-[320px] text-2xl text-center md:text-left">
             Trusted by 2000+ companies worldwide.
           </h2>
         </div>
@@ -67,52 +67,52 @@ export default function Home() {
             alt="AirbnbLogo1"
             width={640}
             height={900}
-            className="w-full"
+            className="w-[300px] md:w-[700px]"
           />
           <Image
             src={"/images/AirbnbLogo2.png"}
             alt="AirbnbLogo2"
             width={640}
             height={900}
-            className="w-full"
+            className="w-[300px] md:w-[700px]"
           />
           <Image
             src={"/images/AirbnbLogo3.png"}
             alt="AirbnbLogo3"
             width={640}
             height={900}
-            className="w-full"
+            className="w-[300px] md:w-[700px]"
           />
           <Image
             src={"/images/AirbnbLogo4.png"}
             alt="AirbnbLogo4"
             width={640}
             height={900}
-            className="w-full"
+            className="w-[300px] md:w-[700px]"
           />
           <Image
             src={"/images/AirbnbLogo5.png"}
             alt="AirbnbLogo5"
             width={640}
             height={900}
-            className="w-full"
+            className="w-[300px] md:w-[700px]"
           />
           <Image
             src={"/images/AirbnbLogo6.png"}
             alt="AirbnbLogo6"
             width={640}
             height={900}
-            className="w-full hidden md:block"
+            className="w-[300px] md:w-[700px] hidden md:block"
           />
         </div>
       </div>
 
       <Course />
       <div className="w-full p-10">
-        <h2 className="font-bold text-2xl md:text-5xl leading-[57.6px] text-center pb-4 md:pb-0">
+        <h2 className="font-bold text-black text-2xl md:text-5xl leading-[57.6px] text-center pb-4 md:pb-0">
           Our Achivements
         </h2>
-        <p className="p-0 md:p-20 pt-0 text-base leading-[27px] text-justify md:text-center">
+        <p className="p-0 text-black md:p-20 pt-0 text-base leading-[27px] text-justify md:text-center">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
           varius enim in eros elementum tristique. Duis cursus, mi quis viverra
           ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
@@ -121,25 +121,25 @@ export default function Home() {
         <div className="w-full flex flex-col md:flex-row ">
           <div className="w-full md:w-1/2 flex justify-around">
             <div>
-              <h1 className="font-bold text-4xl leading-[48px]">+200</h1>
+              <h1 className="font-bold text-black text-4xl leading-[48px]">+200</h1>
               <span>Courses</span>
             </div>
 
             <div>
-              <h1 className="font-bold text-4xl leading-[48px]">50K</h1>
+              <h1 className="font-bold text-black text-4xl leading-[48px]">50K</h1>
               <span>Mentors</span>
             </div>
           </div>
 
-          <div className="w-full md:w-1/2 flex justify-around">
+          <div className="w-full  md:w-1/2 flex justify-around">
             <div>
-              <h1 className="font-bold text-4xl leading-[48px]">370k</h1>
-              <span>Students</span>
+              <h1 className="font-bold text-black text-4xl leading-[48px]">370k</h1>
+              <span className="text-black">Students</span>
             </div>
 
             <div>
-              <h1 className="font-bold text-4xl leading-[48px]">100+</h1>
-              <span>Recognition</span>
+              <h1 className="font-bold text-black text-4xl leading-[48px]">100+</h1>
+              <span className="text-black">Recognition</span>
             </div>
           </div>
         </div>
