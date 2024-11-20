@@ -67,42 +67,42 @@ export default function Home() {
             alt="AirbnbLogo1"
             width={640}
             height={900}
-            className="w-[300px] md:w-[700px]"
+            className="w-[300px] md:w-[600px]"
           />
           <Image
             src={"/images/AirbnbLogo2.png"}
             alt="AirbnbLogo2"
             width={640}
             height={900}
-            className="w-[300px] md:w-[700px]"
+            className="w-[300px] md:w-[600px]"
           />
           <Image
             src={"/images/AirbnbLogo3.png"}
             alt="AirbnbLogo3"
             width={640}
             height={900}
-            className="w-[300px] md:w-[700px]"
+            className="w-[300px] md:w-[600px]"
           />
           <Image
             src={"/images/AirbnbLogo4.png"}
             alt="AirbnbLogo4"
             width={640}
             height={900}
-            className="w-[300px] md:w-[700px]"
+            className="w-[300px] md:w-[600px]"
           />
           <Image
             src={"/images/AirbnbLogo5.png"}
             alt="AirbnbLogo5"
             width={640}
             height={900}
-            className="w-[300px] md:w-[700px]"
+            className="w-[300px] md:w-[600px]"
           />
           <Image
             src={"/images/AirbnbLogo6.png"}
             alt="AirbnbLogo6"
             width={640}
             height={900}
-            className="w-[300px] md:w-[700px] hidden md:block"
+            className="w-[300px] md:w-[600px] hidden md:block"
           />
         </div>
       </div>
