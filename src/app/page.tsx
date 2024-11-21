@@ -1,6 +1,7 @@
 import Header from "@/components/header";
 import Course from "@/components/courses";
 import Blog from "@/components/blog";
+import Team from "@/components/team"
 import Image from "next/image";
 import Link from "next/link";
 export default function Home() {
@@ -65,44 +66,44 @@ export default function Home() {
           <Image
             src={"/images/AirbnbLogo1.png"}
             alt="AirbnbLogo1"
-            width={400}
-            height={900}
+            width={200}
+            height={500}
             className="w-[200px] md:w-[400px]"
           />
           <Image
             src={"/images/AirbnbLogo2.png"}
             alt="AirbnbLogo2"
-            width={400}
-            height={900}
+            width={200}
+            height={500}
             className="w-[200px] md:w-[400px]"
           />
           <Image
             src={"/images/AirbnbLogo3.png"}
             alt="AirbnbLogo3"
-            width={400}
-            height={900}
+            width={200}
+            height={500}
             className="w-[200px] md:w-[400px]"
           />
           <Image
             src={"/images/AirbnbLogo4.png"}
             alt="AirbnbLogo4"
-            width={400}
-            height={900}
+            width={200}
+            height={500}
             className="w-[200px] md:w-[400px]"
           />
           <Image
             src={"/images/AirbnbLogo5.png"}
             alt="AirbnbLogo5"
-            width={400}
-            height={900}
+            width={200}
+            height={500}
             className="w-[200px] md:w-[400px]"
           />
           <Image
             src={"/images/AirbnbLogo6.png"}
             alt="AirbnbLogo6"
-            width={400}
-            height={900}
-            className="w-[200px] md:w-[400px] hidden md:block"
+            width={200}
+            height={500}
+            className="hidden md:block"
           />
         </div>
       </div>
@@ -146,6 +147,8 @@ export default function Home() {
       </div>
 
       <Blog />
+
+      <Team />
     </>
   );
 }
