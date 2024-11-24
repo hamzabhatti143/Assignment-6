@@ -1,7 +1,15 @@
 import Header from "@/components/header";
 import Course from "@/components/courses";
 import Blog from "@/components/blog";
-import Team from "@/components/team"
+import Team from "@/components/team";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel"
+import Footer from "@/components/footer";
 import Image from "next/image";
 import Link from "next/link";
 export default function Home() {
@@ -45,13 +53,13 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 mt-4">
           <Image
             src={"/images/hero.png"}
             alt="Hero"
             width={640}
             height={900}
-            className="w-full"
+            className="w-full  rounded-md"
           />
         </div>
       </div>
@@ -149,6 +157,76 @@ export default function Home() {
       <Blog />
 
       <Team />
+
+<Carousel className="max-w-[208px] md:max-w-xl p-0 md:p-20 flex flex-col mx-auto mt-20">
+  <CarouselContent>
+    <CarouselItem className="p-5 w-2/4">
+    <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim 
+      in eros elementum tristique. Duis cursus, mi quis viverra ornare.</p>
+    <div className="flex mt-6">
+    <Image
+            src={"/images/team3.png"}
+            alt="team"
+            width={70}
+            height={40}
+            className="p-2 rounded-full"
+          />
+          <div className="flex flex-col">
+          <h5 className="text-sm md:text-[20px] font-semibold leading-[30px]">
+            Stephen Kerubo
+            </h5>
+            <p className="text-xs md:text-lg leading-[27px]">President of Sales</p>
+          </div>
+          </div>
+    </CarouselItem>
+    <CarouselItem className="p-5 w-2/4">
+    <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim 
+      in eros elementum tristique. Duis cursus, mi quis viverra ornare.</p>
+    <div className="flex mt-6">
+    <Image
+            src={"/images/team1.png"}
+            alt="team"
+            width={70}
+            height={40}
+            className="p-2 rounded-full"
+          />
+          <div className="flex flex-col">
+          <h5 className="text-sm md:text-[20px] font-semibold leading-[30px]">
+            Stephen Kerubo
+            </h5>
+            <p className="text-xs md:text-lg leading-[27px]">President of Sales</p>
+          </div>
+          </div>
+    </CarouselItem>
+    <CarouselItem className="p-5 w-2/4">
+    <p className="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim 
+      in eros elementum tristique. Duis cursus, mi quis viverra ornare.</p>
+    <div className="flex mt-6">
+    <Image
+            src={"/images/team6.png"}
+            alt="team"
+            width={70}
+            height={40}
+            className="p-2 rounded-full"
+          />
+          <div className="flex flex-col">
+          <h5 className="text-sm md:text-[20px] font-semibold leading-[30px]">
+            Stephen Kerubo
+            </h5>
+            <p className="text-xs md:text-lg leading-[27px]">President of Sales</p>
+          </div>
+          </div>
+    </CarouselItem>
+  </CarouselContent>
+
+  <div>
+  <CarouselPrevious aria-label="Previous Slide"/>
+  <CarouselNext aria-label="Next Slide"/>
+  </div>
+</Carousel>
+
+
+      <Footer />
     </>
   );
 }

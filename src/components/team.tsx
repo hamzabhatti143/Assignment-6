@@ -1,10 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
-import Link from 'next/link'
+// import Link from 'next/link'
 function team() {
   return (
     <>
-      <div className="w-full  mt-6 md:mt-0 p-3 md:p-6">
+      <div className="w-full mb-10 mt-6 md:mt-0 p-3 md:p-6">
         <h2 className="font-bold leading-[35px] md:leading-[57.6px] text-xl md:text-5xl text-center">
           Our team
         </h2>
@@ -13,176 +13,247 @@ function team() {
         </p>
       </div>
 
-      <div className="w-full p-2 md:p-0 flex flex-col md:flex-row justify-between">
-        <div className="w-full md:w-[410.67px] h-[132px] flex items-center bg-[#F7F7F7]">
+      <div className="w-full mt-10 p-2 md:p-0 flex flex-col md:flex-row justify-between">
+        <div className="w-full mt-10 md:mt-0 md:w-[410.67px] h-[132px] flex flex-col justify-center items-center">
           <Image
-            src={"/images/Frame1.png"}
-            alt="Frame1"
-            width={100}
-            height={100}
+            src={"/images/team1.png"}
+            alt="team1"
+            width={70}
+            height={40}
             className="p-2"
           />
           <div className="flex items-center justify-center w-3/4 flex-col">
             <h5 className="text-[20px] font-semibold leading-[30px]">
-              Design & Development
+            James Nduku
             </h5>
-            <p className="text-lg leading-[27px]">50+ Courses Available</p>
+            <p className="text-lg leading-[27px]">Marketing Coordinator</p>
+
+            <div className="flex mt-6">
+            <Image
+            src={"/images/LinkedIn.png"}
+            alt="LinkedIn"
+            width={40}
+            height={30}
+            className="p-2"
+          />
+          <Image
+            src={"/images/Twitter.png"}
+            alt="Twitter"
+            width={40}
+            height={30}
+            className="p-2"
+          />
+          <Image
+            src={"/images/Dribble.png"}
+            alt="Dribble"
+            width={40}
+            height={30}
+            className="p-2"
+          />
+            </div>
           </div>
         </div>
 
-        <div className="w-full md:w-[410.67px] h-[132px] flex items-center bg-[#F7F7F7]">
+        <div className="w-full mt-32 md:mt-0 md:w-[410.67px] h-[132px] flex flex-col justify-center items-center">
           <Image
-            src={"/images/Frame2.png"}
-            alt="Frame2"
-            width={100}
-            height={100}
+            src={"/images/team2.png"}
+            alt="team2"
+            width={70}
+            height={40}
             className="p-2"
           />
           <div className="flex items-center justify-center w-3/4 flex-col">
             <h5 className="text-[20px] font-semibold leading-[30px]">
-              Marketing
+            Joseph Munyambu
             </h5>
-            <p className="text-lg leading-[27px]">50+ Courses Available</p>
+            <p className="text-lg leading-[27px]">Nursing Assistant</p>
+            <div className="flex mt-6">
+            <Image
+            src={"/images/LinkedIn.png"}
+            alt="LinkedIn"
+            width={40}
+            height={30}
+            className="p-2"
+          />
+          <Image
+            src={"/images/Twitter.png"}
+            alt="Twitter"
+            width={40}
+            height={30}
+            className="p-2"
+          />
+          <Image
+            src={"/images/Dribble.png"}
+            alt="Dribble"
+            width={40}
+            height={30}
+            className="p-2"
+          />
+            </div>
+
           </div>
         </div>
 
-        <div className="w-full md:w-[410.67px] h-[132px] flex items-center bg-[#F7F7F7]">
+        <div className="w-full mt-32 md:mt-0 md:w-[410.67px] h-[132px] flex flex-col justify-center items-center">
           <Image
-            src={"/images/Frame3.png"}
-            alt="Frame3"
-            width={100}
-            height={100}
+            src={"/images/team3.png"}
+            alt="team3"
+            width={70}
+            height={40}
             className="p-2"
           />
           <div className="flex items-center justify-center w-3/4 flex-col">
             <h5 className="text-[20px] font-semibold leading-[30px]">
-              Development
+            Joseph Ngumbau
             </h5>
-            <p className="text-lg leading-[27px]">50+ Courses Available</p>
+            <p className="text-lg leading-[27px]">Medical Assistant</p>
+            <div className="flex mt-6">
+            <Image
+            src={"/images/LinkedIn.png"}
+            alt="LinkedIn"
+            width={40}
+            height={30}
+            className="p-2"
+          />
+          <Image
+            src={"/images/Twitter.png"}
+            alt="Twitter"
+            width={40}
+            height={30}
+            className="p-2"
+          />
+          <Image
+            src={"/images/Dribble.png"}
+            alt="Dribble"
+            width={40}
+            height={30}
+            className="p-2"
+          />
+            </div>
           </div>
         </div>
-      </div>
+</div>
 
-      <div className="w-full p-2 md:p-0 hidden mt-4 md:flex flex-col md:flex-row justify-between">
-        <div className="w-full md:w-[410.67px] h-[132px] flex items-center bg-[#F7F7F7]">
+<div className="w-full mt-32 p-2 md:p-0 flex flex-col md:flex-row justify-between">
+        <div className="w-full md:w-[410.67px] h-[132px] flex flex-col justify-center items-center">
           <Image
-            src={"/images/Frame4.png"}
-            alt="Frame4"
-            width={100}
-            height={100}
+            src={"/images/team4.png"}
+            alt="team4"
+            width={70}
+            height={40}
             className="p-2"
           />
           <div className="flex items-center justify-center w-3/4 flex-col">
-            <h5 className="text-base md:text-[20px] font-semibold leading-[30px]">
-              Communication
+            <h5 className="text-[20px] font-semibold leading-[30px]">
+            Erick Kipkemboi
             </h5>
-            <p className="text-sm md:text-lg leading-[27px]">
-              50+ Courses Available
-            </p>
+            <p className="text-lg leading-[27px]">Web Designer</p>
+
+            <div className="flex mt-6">
+            <Image
+            src={"/images/LinkedIn.png"}
+            alt="LinkedIn"
+            width={40}
+            height={30}
+            className="p-2"
+          />
+          <Image
+            src={"/images/Twitter.png"}
+            alt="Twitter"
+            width={40}
+            height={30}
+            className="p-2"
+          />
+          <Image
+            src={"/images/Dribble.png"}
+            alt="Dribble"
+            width={40}
+            height={30}
+            className="p-2"
+          />
+            </div>
           </div>
         </div>
 
-        <div className="w-full md:w-[410.67px] h-[132px] flex items-center bg-[#F7F7F7]">
+        <div className="w-full md:w-[410.67px] h-[132px] hidden md:flex flex-col justify-center items-center">
           <Image
-            src={"/images/Frame5.png"}
-            alt="Frame5"
-            width={100}
-            height={100}
+            src={"/images/team5.png"}
+            alt="team5"
+            width={70}
+            height={40}
             className="p-2"
           />
           <div className="flex items-center justify-center w-3/4 flex-col">
-            <h5 className="text-base md:text-[20px] font-semibold leading-[30px]">
-              Digital Marketing
+            <h5 className="text-[20px] font-semibold leading-[30px]">
+            Stephen Kerubo
             </h5>
-            <p className="text-sm md:text-lg leading-[27px]">
-              50+ Courses Available
-            </p>
+            <p className="text-lg leading-[27px]">President of Sales</p>
+            <div className="flex mt-6">
+            <Image
+            src={"/images/LinkedIn.png"}
+            alt="LinkedIn"
+            width={40}
+            height={30}
+            className="p-2"
+          />
+          <Image
+            src={"/images/Twitter.png"}
+            alt="Twitter"
+            width={40}
+            height={30}
+            className="p-2"
+          />
+          <Image
+            src={"/images/Dribble.png"}
+            alt="Dribble"
+            width={40}
+            height={30}
+            className="p-2"
+          />
+            </div>
+
           </div>
         </div>
 
-        <div className="w-full md:w-[410.67px] h-[132px] flex items-center bg-[#F7F7F7]">
+        <div className="w-full md:w-[410.67px] h-[132px] hidden md:flex flex-col justify-center items-center">
           <Image
-            src={"/images/Frame6.png"}
-            alt="Frame6"
-            width={100}
-            height={100}
+            src={"/images/team6.png"}
+            alt="team6"
+            width={70}
+            height={40}
             className="p-2"
           />
           <div className="flex items-center justify-center w-3/4 flex-col">
-            <h5 className="text-base md:text-[20px] font-semibold leading-[30px]">
-              Self Development
+            <h5 className="text-[20px] font-semibold leading-[30px]">
+            John Leboo
             </h5>
-            <p className="text-sm md:text-lg leading-[27px]">
-              50+ Courses Available
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div className="w-full p-2 md:p-0 mt-4 hidden md:flex flex-col md:flex-row justify-between">
-        <div className="w-full md:w-[410.67px] h-[132px] flex items-center bg-[#F7F7F7]">
-          <Image
-            src={"/images/Frame7.png"}
-            alt="Frame7"
-            width={100}
-            height={100}
+            <p className="text-lg leading-[27px]">Dog Trainer</p>
+            <div className="flex mt-6">
+            <Image
+            src={"/images/LinkedIn.png"}
+            alt="LinkedIn"
+            width={40}
+            height={30}
             className="p-2"
           />
-          <div className="flex items-center justify-center w-3/4 flex-col">
-            <h5 className="text-base md:text-[20px] font-semibold leading-[30px]">
-              Business
-            </h5>
-            <p className="text-sm md:text-lg leading-[27px]">
-              50+ Courses Available
-            </p>
-          </div>
-        </div>
-
-        <div className="w-full md:w-[410.67px] h-[132px] flex items-center bg-[#F7F7F7]">
           <Image
-            src={"/images/Frame8.png"}
-            alt="Frame8"
-            width={100}
-            height={100}
+            src={"/images/Twitter.png"}
+            alt="Twitter"
+            width={40}
+            height={30}
             className="p-2"
           />
-          <div className="flex items-center justify-center w-3/4 flex-col">
-            <h5 className="text-base md:text-[20px] font-semibold leading-[30px]">
-              Finance
-            </h5>
-            <p className="text-sm md:text-lg leading-[27px]">
-              50+ Courses Available
-            </p>
-          </div>
-        </div>
-
-        <div className="w-full md:w-[410.67px] h-[132px] flex items-center bg-[#F7F7F7]">
           <Image
-            src={"/images/Frame9.png"}
-            alt="Frame9"
-            width={100}
-            height={100}
+            src={"/images/Dribble.png"}
+            alt="Dribble"
+            width={40}
+            height={30}
             className="p-2"
           />
-          <div className="flex items-center justify-center w-3/4 flex-col">
-            <h5 className="text-base md:text-[20px] font-semibold leading-[30px]">
-              Consulting
-            </h5>
-            <p className="text-sm md:text-lg leading-[27px]">
-              50+ Courses Available
-            </p>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div className="w-full mt-10 fade-up flex items-center justify-center">
-        <Link
-          href="/"
-          className="flex items-center justify-center border-2 hover:bg-slate-900 hover:text-white w-[155px] h-[48px]"
-        >
-          View All Courses
-        </Link>
-      </div>
+</div>
     </>
   )
 }

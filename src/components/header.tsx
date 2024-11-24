@@ -4,6 +4,30 @@ import Link from "next/link";
 const header = () => {
   return (
     <>
+    <div className="w-full p-8 pt-0 pb-0 hidden md:flex flex-row">
+        <div className="w-[500px] flex flex-row justify-around p-2 ">
+          <p>Phone Number: 956 742 455 678</p>
+          <Image src={"/images/Line.png"} alt="Logo" width={3} height={1} className="h-[28px]"/>
+          <p> Email:info@ddsgnr.com</p>
+        </div>
+
+        <div className="w-3/4 flex justify-end">
+        <Image src={"/images/Facebook.png"} alt="Facebook" width={24} height={24} />
+
+        <Image
+          src={"/images/Instagram.png"}
+          alt="Instagram"
+          width={24}
+          height={24}
+        />
+
+        <Image src={"/images/Twitter.png"} alt="Twitter" width={24} height={24} />
+
+        <Image src={"/images/LinkedIn.png"} alt="LinkedIn" width={24} height={24} />
+        </div>
+      </div>
+
+
       <header className="w-full p-5 flex flex-col md:flex-row">
         <div className="w-full md:w-1/4">
           <Image
